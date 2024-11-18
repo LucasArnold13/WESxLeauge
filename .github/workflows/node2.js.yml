@@ -1,0 +1,25 @@
+name: Preview React App
+
+on:
+  workflow_dispatch: # Manuelles Triggern
+
+jobs:
+  dev-server:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      # Node.js installieren
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18.x'
+
+      # Abhängigkeiten installieren
+      - name: Install dependencies
+        run: npm install
+
+      # Entwicklungsserver starten
+      - name: Start dev server
+        run: npm run dev
