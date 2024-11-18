@@ -1,0 +1,37 @@
+{
+  "name": "gameplex-next",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@tabler/icons-webfont": "^3.19.0",
+    "@types/bootstrap": "^5.2.10",
+    "apexcharts": "^3.54.0",
+    "bootstrap": "^5.3.3",
+    "clsx": "^2.1.1",
+    "gsap": "^3.12.5",
+    "next": "14.2.15",
+    "react": "^18",
+    "react-animate-height": "^3.2.3",
+    "react-apexcharts": "^1.4.1",
+    "react-dom": "^18",
+    "react-parallax-tilt": "^1.7.245",
+    "split-type": "^0.3.4",
+    "swiper": "^11.1.14"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.15",
+    "sass": "1.77.8",
+    "sharp": "^0.33.5",
+    "typescript": "^5"
+  }
+}
